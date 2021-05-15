@@ -4,7 +4,7 @@ return true if the tree has a root-to-leaf path such that adding up all the valu
 A leaf is a node with no children.
 
 Runtime: 32 ms, faster than 98.32% of Python3 online submissions for Path Sum.
-Memory Usage: 15.9 MB, less than 66.49% of Python3 online submissions for Path Sum.
+Memory Usage: 15.8 MB, less than 89.08% of Python3 online submissions for Path Sum.
 '''
 from collections import deque
 
