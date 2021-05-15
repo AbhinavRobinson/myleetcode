@@ -20,8 +20,6 @@ class TreeNode:
 
 class Solution:
     def diameterOfBinaryTree(self, root):
-        if not root:
-            return 0
         self.maxDiameter = 0
 
         def _diameter(node, diameter):
@@ -29,9 +27,6 @@ class Solution:
                 diameter += 1
                 if not node.left and not node.right:
                     return 1
-                if (node.left or node.right) and (not node.left and not node.right):
-                    return _diameter(node.left, diameter) if node.left else _diameter(node.right, diameter)
-
                 ldia, rdia = _diameter(node.left, diameter), _diameter(
                     node.right, diameter)
                 self.maxDiameter = max(self.maxDiameter, rdia+ldia)
