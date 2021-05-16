@@ -7,6 +7,12 @@
 // Memory Usage: 18.8 MB, less than 87.53% of C++ online submissions for
 // Maximum Depth of Binary Tree.
 
+#include <deque>
+#include <math.h>
+#include <tuple>
+
+using namespace std;
+
 /**
  * Definition for a binary tree node.
  */
