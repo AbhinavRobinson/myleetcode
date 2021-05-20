@@ -2,7 +2,7 @@
 // return an array of the squares of each number sorted in non-decreasing order.
 
 // Runtime: 20 ms, faster than 97.93% of C++ online submissions for Squares of a Sorted Array.
-// Memory Usage: 26 MB, less than 50.44% of C++ online submissions for Squares of a Sorted Array.
+// Memory Usage: 25.9 MB, less than 50.46% of C++ online submissions for Squares of a Sorted Array.
 
 #include <math.h>
 #include <vector>
