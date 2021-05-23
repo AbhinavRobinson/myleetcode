@@ -5,6 +5,7 @@
 // Runtime: 92 ms, faster than 46.66% of C++ online submissions for Find the Duplicate Number.
 // Memory Usage: 61.2 MB, less than 30.39% of C++ online submissions for Find the Duplicate Number.
 
+#include <math.h>
 #include <vector>
 
 using namespace std;
